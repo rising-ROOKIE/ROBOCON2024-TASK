@@ -23,7 +23,7 @@ def sigma(data):#输入残差值
         i += 1
     data2 = sum/(i-1)
     data2 = data2 ** 0.5
-    print("sigma : " +str(data2))
+    print("\nsigma : " +str(data2))
     return data2 
 
 def delete_num(data1,data2): #输入残值和sigma值
